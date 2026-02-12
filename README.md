@@ -45,8 +45,8 @@ Note: Make sure you're logged into your GitHub account. If you don't have one, y
 Here's what you can customize in `config.js`:
 ```javascript
 // Basic Information
-valentineName: "Jade"                    // Your Valentine's name
-pageTitle: "Will You Be My Valentine? 💝" // Browser tab title
+valentineName: "mina"                    // Your Valentine's name
+pageTitle: "Lets go tea time and mina port on the 14th? 💝" // Browser tab title
 
 // Floating Background Elements
 floatingEmojis: {
@@ -57,14 +57,14 @@ floatingEmojis: {
 // Questions and Buttons
 questions: {
     first: {
-        text: "Do you like me?",                   // First question
+        text: "Are you free on saturday?",                   // First question
         yesBtn: "Yes",                             // Yes button text
         noBtn: "No",                               // No button text
-        secretAnswer: "I don't like you, I love you! ❤️"  // Hidden message
+        secretAnswer: " yes 100%! ❤️"  // Hidden message
     },
     second: {
-        text: "How much do you love me?",          // Second question
-        startText: "This much!",                   // Text before percentage
+        text: "get karak from tea time?",          // Second question
+        startText: "Yes!",                   // Text before percentage
         nextBtn: "Next ❤️"                         // Next button text
     },
     third: {
@@ -76,14 +76,14 @@ questions: {
 
 // Love Meter Messages
 loveMessages: {
-    extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows above 5000%
+    extreme: "LETS GOOOOO🔥🔥🔥",  // Shows above 5000%
     high: "To infinity and beyond! 🚀💝",              // Shows above 1000%
     normal: "And beyond! 🥰"                           // Shows above 100%
 }
 
 // Final Celebration
 celebration: {
-    title: "Yay! I'm the luckiest person...",     // Celebration title
+    title: "This took me an hour  to make...",     // Celebration title
     message: "Now come get your gift...",          // Celebration message
     emojis: "🎁💖🤗💝💋❤️💕"                        // Celebration emojis
 }
